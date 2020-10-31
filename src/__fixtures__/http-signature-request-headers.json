@@ -1,0 +1,28 @@
+[
+  {
+    "clientKeyPair": {
+      "id": "#z6Mkk7yqnGF3YwTrLpqrW6PGsKci7dNqh1CjnvMbzrMerSeL",
+      "type": "JsonWebKey2020",
+      "controller": "did:key:z6Mkk7yqnGF3YwTrLpqrW6PGsKci7dNqh1CjnvMbzrMerSeL",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "x": "VDXDwuGKVq91zxU6q7__jLDUq8_C5cuxECgd-1feFTE",
+        "kty": "OKP"
+      },
+      "privateKeyJwk": {
+        "crv": "Ed25519",
+        "d": "T2azVap7CYD_kB8ilbnFYqwwYb5N-GcD6yjGEvquZXg",
+        "x": "VDXDwuGKVq91zxU6q7__jLDUq8_C5cuxECgd-1feFTE",
+        "kty": "OKP"
+      }
+    },
+    "requestOptions": {
+      "method": "get",
+      "url": "http://localhost:8080/resources/123",
+      "headers": {}
+    },
+    "requestHeaders": {
+      "authorization": "Signature keyId=\"did:key:z6Mkk7yqnGF3YwTrLpqrW6PGsKci7dNqh1CjnvMbzrMerSeL#z6Mkk7yqnGF3YwTrLpqrW6PGsKci7dNqh1CjnvMbzrMerSeL\",algorithm=\"hs2019\",headers=\"(key-id) (created) (expires) (request-target) host content-type digest\",signature=\"Ai0Za6M3zV4hlh3CygRZ1rFb3uqclnLWVtki0hcnVW0bGcgo-6poU_szo7U2b_oBieOQrMJxn2ODB0MYud6cBg\",created=\"1602879801289\",expires=\"1602880401289\""
+    }
+  }
+]
