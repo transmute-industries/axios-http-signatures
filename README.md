@@ -1,5 +1,7 @@
 ## Axios HTTP Signatures
 
+![CI](https://github.com/transmute-industries/axios-http-signatures/workflows/CI/badge.svg)
+
 ### [HTTP Signature Spec (DRAFT!!!)](https://tools.ietf.org/html/draft-cavage-http-signatures-12)
 
 A reference implementation of the http signature draft.
